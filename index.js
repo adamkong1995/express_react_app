@@ -3,7 +3,7 @@ require('./services/passport');
 
 const app = express();
 
-require('./routes/authRoutes')(app);
+require('./routes/authRoutes')(app); 
 
 
 
