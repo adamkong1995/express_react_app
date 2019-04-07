@@ -11,7 +11,7 @@ mongoose.connect(keys.mongoURI);
 
 const app = express();
 
-// Passport js config
+// Passport js middleware
 app.use(
     cookieSession({
         // cookie will be store for 30 days
